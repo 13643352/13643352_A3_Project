@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelGenerator : MonoBehaviour
 {
     public int[,] levelMap;
+    public int i, j;
     public GameObject outCorner;
     public GameObject outWall;
     public GameObject inCorner;
@@ -34,6 +35,7 @@ public class LevelGenerator : MonoBehaviour
              {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
              {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
         };
+        levelMap = new int[i, j];
 
         for (int i = 0; i < levelMap.Length; i++)
         {
