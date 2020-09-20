@@ -105,6 +105,43 @@ public class LevelGenerator : MonoBehaviour
                 }
             }
         }
+
+        //for (int i = levelMap.GetLength(0) - 2; i >= 0; i--)
+        //{
+        //    for (int j = 0; j < levelMap.GetLength(1); j++)
+        //    {
+        //        if (levelMap[i, j] == 0)
+        //        { }
+        //        if (levelMap[i, j] == 1)
+        //        {
+        //            Instantiate(outCorner, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
+        //        }
+        //        if (levelMap[i, j] == 2)
+        //        {
+        //            Instantiate(outWall, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
+        //        }
+        //        if (levelMap[i, j] == 3)
+        //        {
+        //            Instantiate(inCorner, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
+        //        }
+        //        if (levelMap[i, j] == 4)
+        //        {
+        //            Instantiate(inWall, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
+        //        }
+        //        if (levelMap[i, j] == 5)
+        //        {
+        //            Instantiate(normalPellet, new Vector2(i, j), Quaternion.identity);
+        //        }
+        //        if (levelMap[i, j] == 6)
+        //        {
+        //            Instantiate(powerPellet, new Vector2(i, j), Quaternion.identity);
+        //        }
+        //        if (levelMap[i, j] == 7)
+        //        {
+        //            Instantiate(tJunction, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
+        //        }
+        //    }
+        //}
     }
 
     // Update is called once per frame
