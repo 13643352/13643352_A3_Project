@@ -77,19 +77,19 @@ public class LevelGenerator : MonoBehaviour
                 { }
                 if (levelMap[i, j] == 1)
                 {
-                    Instantiate(outCorner, new Vector2(i, j), Quaternion.identity);
+                    Instantiate(outCorner, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
                 }
                 if (levelMap[i, j] == 2)
                 {
-                    Instantiate(outWall, new Vector2(i, j), Quaternion.identity);
+                    Instantiate(outWall, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
                 }
                 if (levelMap[i, j] == 3)
                 {
-                    Instantiate(inCorner, new Vector2(i, j), Quaternion.identity);
+                    Instantiate(inCorner, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
                 }
                 if (levelMap[i, j] == 4)
                 {
-                    Instantiate(inWall, new Vector2(i, j), Quaternion.identity);
+                    Instantiate(inWall, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
                 }
                 if (levelMap[i, j] == 5)
                 {
@@ -101,7 +101,7 @@ public class LevelGenerator : MonoBehaviour
                 }
                 if (levelMap[i, j] == 7)
                 {
-                    Instantiate(tJunction, new Vector2(i, j), Quaternion.identity);
+                    Instantiate(tJunction, new Vector2(i, j), Quaternion.Euler(0f, 0f, 90f));
                 }
             }
         }
