@@ -6,6 +6,12 @@ public class LevelGenerator : MonoBehaviour
 {
     public int[,] levelMap;
     public GameObject outCorner;
+    public GameObject outWall;
+    public GameObject inCorner;
+    public GameObject inWall;
+    public GameObject normalPellet;
+    public GameObject powerPellet;
+    public GameObject tJunction;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +44,30 @@ public class LevelGenerator : MonoBehaviour
                 if (levelMap[i, j] == 1)
                 {
                     Instantiate(outCorner, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 2)
+                {
+                    Instantiate(outWall, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 3)
+                {
+                    Instantiate(inCorner, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 4)
+                {
+                    Instantiate(inWall, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 5)
+                {
+                    Instantiate(normalPellet, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 6)
+                {
+                    Instantiate(powerPellet, new Vector2(i, j), Quaternion.identity);
+                }
+                if (levelMap[i, j] == 7)
+                {
+                    Instantiate(tJunction, new Vector2(i, j), Quaternion.identity);
                 }
 
             }
