@@ -174,7 +174,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -241,7 +241,7 @@ MonoBehaviour:
   inWall: {fileID: 8966825475898749972, guid: 7f4e5566d9f39d24dbfe8995b3ead5e3, type: 3}
   normalPellet: {fileID: 7113097442581979055, guid: ea0f177ee74f5bb4db8be554709aac48,
     type: 3}
-  powerPellet: {fileID: 9179289773940839373, guid: f1639c2e79ac0f64692277ca4ef06d31,
+  powerPellet: {fileID: 5888220719038288705, guid: 051b206a612ae5b4e8a8d3bce7a76f25,
     type: 3}
   tJunction: {fileID: 8499696775304157840, guid: 0356c7ae5ffa18a49bb26e1e5b070581,
     type: 3}
